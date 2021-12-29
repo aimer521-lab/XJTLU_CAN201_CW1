@@ -1,1 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-12-28T08:23:32.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" version="15.9.6" etag="ByoT2wXLtuFNgpUeGrTR" type="github"><diagram id="pgz3RFTumappOtrS4Cna">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-29T07:14:03.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62" etag="TGx8FWQ-xygLAGfocQiD" version="15.9.6" type="github">
+  <diagram id="pgz3RFTumappOtrS4Cna" name="Page-1">
+    <mxGraphModel dx="1169" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-1" target="DIGmZ5hc2Sh5Feo7u6eM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-1" value="start the program&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-2" target="DIGmZ5hc2Sh5Feo7u6eM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-2" value="the thread represent the node, read the network file, storage corresponding part" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-3" target="DIGmZ5hc2Sh5Feo7u6eM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-3" value="connect with other thread by TCP, and its own DV table." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-6" target="DIGmZ5hc2Sh5Feo7u6eM-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-6" value="wait for the message from the neighbors" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-8" target="DIGmZ5hc2Sh5Feo7u6eM-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-8" value="receive the distance table&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-13" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-10" target="DIGmZ5hc2Sh5Feo7u6eM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-10" target="DIGmZ5hc2Sh5Feo7u6eM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-10" value="update？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="770" />
+              <mxPoint x="560" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-12" value="change the DV table&amp;nbsp;&lt;br&gt;send to the neighbors" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-18" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-14" target="DIGmZ5hc2Sh5Feo7u6eM-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-20" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DIGmZ5hc2Sh5Feo7u6eM-14" target="DIGmZ5hc2Sh5Feo7u6eM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-14" value="all the three thread no change ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-17" value="output DV table&amp;nbsp;&lt;br&gt;algorithm convert" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1010" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DIGmZ5hc2Sh5Feo7u6eM-19" value="wait" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="900" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
